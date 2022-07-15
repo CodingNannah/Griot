@@ -1,20 +1,22 @@
-.container {  display: flex;
-  
-  grid-template-columns: 1.5fr 1.1fr 1fr 1fr 1.5fr;
-  grid-template-rows: 0.5fr 2.5fr 5fr 2.5fr;
-  gap: 1px 1px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "navbar navbar navbar navbar navbar"
-    "header header header header header"
-    "articles articles articles sidebar sidebar"
-    "footer footer footer footer footer";
+.navbar { 
+	display: flex;
+	background-color: black;
+	color: white;
+	margin: 10px;
+	padding: 30px;
+	flex-flow: row nowrap;
 }
 
-.navbar { 
-  grid-area: navbar; 
-  display: flex;
+.flexbox-container {  
+	display: flex;
 }
+
+.flexbox-container-nav {  
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 .header { grid-area: header;
   height: 100vh;}

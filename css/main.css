@@ -4,13 +4,13 @@
   gap: 1px 1px;
   grid-auto-flow: row;
   grid-template-areas:
-    "nav_bar nav_bar nav_bar nav_bar nav_bar"
+    "navbar navbar navbar navbar navbar"
     "header header header header header"
     "articles articles articles sidebar sidebar"
     "footer footer footer footer footer";
 }
 
-.nav_bar { grid-area: nav_bar; }
+.navbar { grid-area: navbar; }
 
 .header { grid-area: header; }
 

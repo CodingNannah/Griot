@@ -12,7 +12,8 @@
 
 .navbar { grid-area: navbar; }
 
-.header { grid-area: header; }
+.header { grid-area: header;
+  height: 100vh;}
 
 .articles { grid-area: articles; }
 

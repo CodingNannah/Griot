@@ -1,0 +1,21 @@
+.container {  display: grid;
+  grid-template-columns: 1.5fr 1.1fr 1fr 1fr 1.5fr;
+  grid-template-rows: 0.5fr 2.5fr 5fr 2.5fr;
+  gap: 1px 1px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "nav_bar nav_bar nav_bar nav_bar nav_bar"
+    "header header header header header"
+    "articles articles articles sidebar sidebar"
+    "footer footer footer footer footer";
+}
+
+.nav_bar { grid-area: nav_bar; }
+
+.header { grid-area: header; }
+
+.articles { grid-area: articles; }
+
+.sidebar { grid-area: sidebar; }
+
+.footer { grid-area: footer; }
